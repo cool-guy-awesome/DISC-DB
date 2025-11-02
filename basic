@@ -1,0 +1,7 @@
+message Welcome to the `basic` disc!
+message this disc is a basic disc that will test the bot!
+message Waiting 2 seconds...
+time.wait 2
+message Completed!
+message Waiting for user to say one of the following: hello, hi, hamburger
+msg.gate hello hi hamburger
