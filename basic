@@ -4,4 +4,7 @@ message Waiting 2 seconds...
 time.wait 2
 message Completed!
 message Waiting for user to say one of the following: hello, hi, hamburger
-msg.gate hello hi hamburger
+msg.gate "hello"|hi|hamburger
+message you passed!
+fi
+message Test over.
